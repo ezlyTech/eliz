@@ -1,0 +1,15 @@
+.hero {
+
+    .main-texts {
+        h1 {
+            margin-top: 28px;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 33px;
+        margin-top: 92px;
+    }
+}
