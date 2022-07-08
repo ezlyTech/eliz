@@ -56,3 +56,29 @@
         }
     }
 }
+
+
+
+
+@media only screen and (max-width: 428px) {
+
+    .project-overview {
+    
+        .project-overview__wrapper {
+    
+            .project-overview__container {
+                .top__container {
+                    margin-bottom: 40px;
+                }
+    
+                .project-item__container {
+    
+                    .col2__container {
+                        flex-direction: column;
+                        gap: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

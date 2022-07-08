@@ -58,3 +58,54 @@ header {
         }
     }
 }
+
+
+
+@media only screen and (max-width: 428px) {
+
+    header {
+
+        .header__wrapper {
+    
+            .header__container {
+                flex-direction: column;
+                gap: 20px;
+    
+                .header__nav {
+                    gap: 25px;
+    
+                    a {
+                        position: relative;
+    
+    
+                        &:hover {
+    
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                bottom: -21px;
+                                left: 0;
+                                width: 100%;
+                                height: 2px;
+                                background-color: #040127;
+                            }
+                        }
+    
+                        &:active {
+    
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                bottom: -21px;
+                                left: 0;
+                                width: 100%;
+                                height: 2px;
+                                background-color: #040127;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
