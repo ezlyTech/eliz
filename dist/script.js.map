@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","names":[],"sources":[],"mappings":""}
+{"version":3,"file":"script.js","names":["$","window","scroll","this","scrollTop","addClass","removeClass"],"sources":["script.js"],"mappings":"AACAA,EAAEC,QAAQC,QAAO,WACTF,EAAEG,MAAMC,YAAc,EACtBJ,EAAE,UAAUK,SAAS,gBAGrBL,EAAE,UAAUM,YAAY"}
