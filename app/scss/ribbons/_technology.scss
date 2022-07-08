@@ -1,0 +1,32 @@
+.technology {
+
+    .technology__wrapper {
+
+        .technology__container {
+
+            .top__container {
+
+                h2 {
+                    margin-bottom: 11px;
+                }
+
+                h4 {
+                    margin-top: 11px;
+                }
+            }
+
+            .icons__container {
+                max-width: 592px;
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                gap: 47px;
+
+                .icons__group {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
