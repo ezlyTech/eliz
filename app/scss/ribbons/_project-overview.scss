@@ -1,0 +1,58 @@
+.project-overview {
+    background-color: white;
+
+    .project-overview__wrapper {
+
+        .project-overview__container {
+
+
+            .top__container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .project-item__container {
+
+                .col1__container {
+
+                    .col__image {
+                        width: 100%;
+                        overflow: hidden;
+
+                        a img {
+                            width: 100%;
+
+                            &:hover {
+                                transform: scale(1.1);
+                                transition: .5s;
+                            }
+                        }
+                    }
+                }
+
+                .col2__container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 40px;
+
+                    .col__image {
+                        max-width: 505px;
+                        overflow: hidden;
+
+                        a img {
+                            width: 100%;
+
+                            &:hover {
+                                transform: scale(1.1);
+                                transition: .5s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
