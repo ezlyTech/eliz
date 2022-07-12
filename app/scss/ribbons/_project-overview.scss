@@ -20,6 +20,7 @@
                     .col__image {
                         width: 100%;
                         overflow: hidden;
+                        position: relative;
 
                         a img {
                             width: 100%;
@@ -28,6 +29,16 @@
                                 transform: scale(1.1);
                                 transition: .5s;
                             }
+                        }
+
+                        a span {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background-color: black;
+                            color: white;
+                            padding: 13px 20px;
+                            font-size: 30px;
                         }
                     }
                 }
@@ -41,6 +52,7 @@
                     .col__image {
                         max-width: 505px;
                         overflow: hidden;
+                        position: relative;
 
                         a img {
                             width: 100%;
@@ -49,6 +61,17 @@
                                 transform: scale(1.1);
                                 transition: .5s;
                             }
+                        }
+
+
+                        a span {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background-color: black;
+                            color: white;
+                            padding: 13px 20px;
+                            font-size: 30px;
                         }
                     }
                 }
